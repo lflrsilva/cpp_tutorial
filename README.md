@@ -4,7 +4,7 @@ Códigos fonte da disciplina EQE-044 Computação Científica Aplicada aos Proce
 Este projeto apresenta o código fonte usado como tutoriais para o aprendizado da linguagem de programação C++ dentro da referida disciplina. Esta inclui os tópicos de:
 
   * Fundamentos no desenvolvimento de códigos
-  * Tipo de variáveis
+  * Tipo primitivos de variáveis
 
   (em construção)
   
