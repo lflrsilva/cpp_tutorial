@@ -3,7 +3,7 @@
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   operadores_avancados.cpp
+  File:   04_operadores_avancados.cpp
   Author: lflrsilva
 
 Topicos abordados
