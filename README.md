@@ -16,8 +16,8 @@ Este projeto apresenta o código fonte usado como tutoriais para o aprendizado d
    Engineers, Springer, 2001.
  - Martin, Robert C, Robert C. Martin Clean Code Collection (Collection), 
    Prentice Hall Pearson, 2011.
- - ![Site cplusplus](https://cplusplus.com/)
- - ![Site cpp reference](https://en.cppreference.com/)
+ - [Site cplusplus](https://cplusplus.com/)
+ - [Site cpp reference](https://en.cppreference.com/)
 
 
 Disciplina ministrada pelo Prof. Luiz Fernando Lopes Rodrigues Silva, D.Sc.

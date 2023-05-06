@@ -1,9 +1,9 @@
-/** 
+/**
 
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   01_saida_dados_formatada.cpp
+  File:   02_saida_dados_formatada.cpp
   Author: lflrsilva
 
 Tópicos abordados
@@ -76,21 +76,6 @@ int main(int argc, char** argv) {
     std::cout.setf(0, std::ios_base::basefield);   // volta ao padrão
     std::cout.width(5);
     std::cout << imax << std::endl;
-    
-    // Saida formatada de string (%s)
-    // Impressao em tela da variavel
-    // Ola, mundo (11 caracteres)
-    
-    // Impressao da string (nada demais)
-	// printf(":%s:\n", "Ola, mundo!");
-    // Impressao da string com 13 espacos disponiveis
-	// printf(":%13s:\n", "Ola, mundo!");
-    // Impressao da string usando soh 8 caracteres
-	// printf(":%.8s:\n", "Ola, mundo!");
-    // Impressao da string usando soh 8 caracteres
-    // e 13 espacos disponiveis
-	// printf(":%13.8s:\n", "Ola, mundo!");
-    // printf("**************************************\n");
-    
+
     return 0;
 }

@@ -1,9 +1,9 @@
-/** 
+/**
 
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   03_precisao_pt_flutuante.cpp
+  File:   04_precisao_pt_flutuante.cpp
   Author: lflrsilva
 
 Tópicos abordados
@@ -13,7 +13,7 @@ Tópicos abordados
 
 Formatos em ponto flutuante
 ---------------------------
-  Em todos os formatos, a opção de precisão sempre define o número de casas 
+  Em todos os formatos, a opção de precisão sempre define o número de casas
   decimais após a casa decimal. Para saída de ponto flutuante, pode-se usar:
 
   - general    : formato que melhor mantém o espaço disponível na página. Esse
@@ -31,7 +31,7 @@ Formatos em ponto flutuante
 #include <cmath>    // leia abaixo
 
 // vc sabia que o namespace já inclui o cmath? Mesmo assim, sempre declare a
-// biblioteca que efetivamente quer usar. Isso é fundamental para consciência 
+// biblioteca que efetivamente quer usar. Isso é fundamental para consciência
 // que o bom programador deve ter sobre os recursos que efetivamente quer usar.
 using namespace std;
 
