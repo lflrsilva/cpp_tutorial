@@ -40,7 +40,7 @@ biblioteca.
 
 #### Arquivos de cabeçalho
 
-Os arquivos de cabeçalho em C++ possuem a extensão \*.h, \*.hpp ou \*.hxx. Estes arquivos
+Os arquivos de cabeçalho em C++ possuem a extensão `*.h`, `*.hpp` ou `*.hxx`. Estes arquivos
 contém a **declaração** dos comandos implementados na biblioteca. Portanto, para obter
 detalhes sobre o tipo de argumentos e o tipo de retorno que um determinado comando exige
 e fornece, o programador sempre pode ver o código implementado nos cabeçalhos.
@@ -48,13 +48,13 @@ e fornece, o programador sempre pode ver o código implementado nos cabeçalhos.
 Por padrão, C++ já fornece acesso a alguns cabeçalhos da biblioteca STL (_Standard
 Template Library_ - Biblioteca de Modelos Padrão). Nesse caso, o compilador já está
 configurado para identificar os diretórios da STL. Para acesso aos comandos, deve-se
-incluir o nome do arquivo cabeçalho entre \<\>:
+incluir o nome do arquivo cabeçalho entre `< >`:
 
     #include <biblioteca.h>
 
 Para bibliotecas de terceiros, deve-se indicar ao compilador o diretório onde os cabeçalhos
 se encontram no computador. Para uso dos comandos, deve-se incluir o cabeçalho de forma
-semelhando ao STL, mas usando \"\".
+semelhando ao STL, mas usando `" "`.
 
     #include "biblioteca.h"
 
@@ -71,11 +71,11 @@ da biblioteca compilada.
 Para isso, existe um padrão de nome e extensão de arquivos de biblioteca compilada. Apesar
 disso, isso depende do sistema operacional.
 
-- Windows : arquivos com extensão \*.lib (bilioteca estática) e \*.dll (biblioteca
+- Windows : arquivos com extensão `*.lib` (bilioteca estática) e `*.dll` (biblioteca
   dinâmica)
-- macOS : arquivos com extensão \*.a (biblioteca estática), \*.so ou \*.dylib (biblioteca
+- macOS : arquivos com extensão `*.a` (biblioteca estática), `*.so` ou `*.dylib` (biblioteca
   dinâmica)
-- Linux : arquivos com extensão \*.a (biblioteca estática), \*.so (biblioteca dinâmica)
+- Linux : arquivos com extensão `*.a` (biblioteca estática), `*.so` (biblioteca dinâmica)
 
 A diferença entre as bibliotecas estáticas e dinâmicas está na forma com que o executável a
 ser criado se conecta a elas. Nas bibliotecas estáticas, as instruções são transferidas para
