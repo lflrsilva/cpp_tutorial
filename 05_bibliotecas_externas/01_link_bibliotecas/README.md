@@ -7,21 +7,21 @@ bem ampla, existindo projetos muito similares entre si. Com isso, a escolha pelo
 uso de uma ou outra biblioteca depende da sua escolha pessoal. Contudo, alguns
 parâmetros podem afetar essa escolha, como:
 
-    * Detalhes para aplicação,
-    * Maturidade do código,
-    * Continuidade do desenvolvimento,
-    * Comunidade de usuários.
+- Detalhes para aplicação,
+- Maturidade do código,
+- Continuidade do desenvolvimento,
+- Comunidade de usuários.
 
 Existem sites específicos que servem como repositório de bibliotecas de terceiros,
-como [Github]{www.github.com}, [GitLab]{www.gitlab.com},
-[Atlassian]{www.atlassian.com} entre outros, em que o usuário pode realizar o
+como [Github](www.github.com), [GitLab](www.gitlab.com),
+[Atlassian](www.atlassian.com) entre outros, em que o usuário pode realizar o
 _download_, compilar e instalar a biblioteca em seu computador. Outra opção é
 instalar os pacotes de desenvolvimento disponíveis pelo gerenciador de programas
 do seu sistema operacional, ex. `apt-get`, `brew`, `yum` etc. Por fim, recentemente
 foram criados aplicativos específicos para gerenciamento e instalação de bibliotecas
 C/C++, inclusive com recursos para criação, compilação, testes etc de projetos
-completos. Deste último caso, citam-se [vcpkg]{https://vcpkg.io/en/},
-[Conan]{https://conan.io/}, [Spack]{https://spack.io/}, entre outros.
+completos. Deste último caso, citam-se [vcpkg](https://vcpkg.io/en/),
+[Conan](https://conan.io/), [Spack](https://spack.io/), entre outros.
 
 Independente da escolha em como obter as bibliotecas, os pacotes de desenvolvimento
 devem ser instalados no computador, disponibilizando os arquivos de código fonte e
@@ -50,13 +50,13 @@ Template Library_ - Biblioteca de Modelos Padrão). Nesse caso, o compilador já
 configurado para identificar os diretórios da STL. Para acesso aos comandos, deve-se
 incluir o nome do arquivo cabeçalho entre \<\>:
 
-`#include <biblioteca.h>`
+    #include <biblioteca.h>
 
 Para bibliotecas de terceiros, deve-se indicar ao compilador o diretório onde os cabeçalhos
 se encontram no computador. Para uso dos comandos, deve-se incluir o cabeçalho de forma
 semelhando ao STL, mas usando \"\".
 
-`#include "biblioteca.h"`
+    #include "biblioteca.h"
 
 #### Biblioteca compilada
 
@@ -71,11 +71,11 @@ da biblioteca compilada.
 Para isso, existe um padrão de nome e extensão de arquivos de biblioteca compilada. Apesar
 disso, isso depende do sistema operacional.
 
-    * Windows : arquivos com extensão \*.lib (bilioteca estática) e \*.dll (biblioteca
-    dinâmica)
-    * macOS : arquivos com extensão \*.a (biblioteca estática), \*.so ou \*.dylib (biblioteca
-    dinâmica)
-    * Linux : arquivos com extensão \*.a (biblioteca estática), \*.so (biblioteca dinâmica)
+- Windows : arquivos com extensão \*.lib (bilioteca estática) e \*.dll (biblioteca
+  dinâmica)
+- macOS : arquivos com extensão \*.a (biblioteca estática), \*.so ou \*.dylib (biblioteca
+  dinâmica)
+- Linux : arquivos com extensão \*.a (biblioteca estática), \*.so (biblioteca dinâmica)
 
 A diferença entre as bibliotecas estáticas e dinâmicas está na forma com que o executável a
 ser criado se conecta a elas. Nas bibliotecas estáticas, as instruções são transferidas para
@@ -97,8 +97,8 @@ Tudo parte do processo de compilação e construção do executável, incluindo 
 argumentos. Neste caso, é preciso indicar os diretórios (argumento maiúsculo) ou arquivos
 específicos (argumento minúsculo), seja de arquivos de cabeçalho ou de biblioteca.
 
-    * Arquivos de cabeçalho  : `-i` (indicação de arquivo) e `-I` (busca em diretório)
-    * Arquivos de biblioteca : `-l` (indicação de arquivo) e `-L` (busca em diretório)
+- Arquivos de cabeçalho : `-i` (indicação de arquivo) e `-I` (busca em diretório)
+- Arquivos de biblioteca : `-l` (indicação de arquivo) e `-L` (busca em diretório)
 
 #### Processo de compilação
 
@@ -106,7 +106,7 @@ A compilação deve necessariamente incluir os arquivos de cabeçalho. Afinal, o
 precisa entender os argumentos e retornos dos comandos que estão na biblioteca. De forma
 simplificada:
 
-`g++ -c main.cpp -IDiretorio\_Cabeçalho\_Biblioteca`
+    g++ -c main.cpp -IDiretorio_Cabeçalho_Biblioteca
 
 Assume-se que o arquivo `main.cpp` contém a chamada do cabeçalho e está usando comandos da
 biblioteca.
@@ -116,8 +116,8 @@ biblioteca.
 A construção deve incluir, além dos arquivos de cabeçalho, o arquivo da biblioteca (estática ou
 dinâmica). De forma simplificada:
 
-`g++ -o my\_app main.o -IDiretorio\_Cabeçalho\_Biblioteca -LCaminho\_Arquivo\_Biblioteca
--lnome\_biblioteca`
+    g++ -o my_app main.o -IDiretorio_Cabeçalho_Biblioteca -LCaminho_Arquivo_Biblioteca
+    -lnome_biblioteca
 
 Note que indicamos duas etapas de busca pelo arquivo da biblioteca. Usando `-L`, indicou-se o
 diretório completo onde a biblioteca se encontra e com o argumento `-l` indicou-se o nome da
