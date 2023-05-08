@@ -1,4 +1,4 @@
-## Vinculando seu programa a bibliotecas externas
+## Uso de bibliotecas externas
 
 A internet amplia a disponibilidade de bibliotecas de códigos em qualquer linguagem
 de programação pois qualquer programador pode desenvolver sua própria biblioteca e
