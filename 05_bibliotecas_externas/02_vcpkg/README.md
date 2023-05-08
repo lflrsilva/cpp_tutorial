@@ -85,5 +85,6 @@ o `vcpkg` **está instalado** no seu sistema!)
     mkdir build
     cd build
     cmake .. "-DCMAKE_TOOLCHAIN_FILE=VCPKG_DIR\scripts\buildsystems\vcpkg.cmake"
+    make
 
 Basta executar o executável e checar a versão usada do `SQLite`!
