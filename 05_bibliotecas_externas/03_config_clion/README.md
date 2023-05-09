@@ -24,6 +24,7 @@ diretório de instalação do `vcpkg`.
 ![Configuração do CMake](img/cmake_options.png)
 
 Por fim, basta aceitar as alterações (_OK_ ou _Apply_) e escolher a opção
-criada antes de construir o projeto.
+criada antes de construir o projeto. Para testar, use o mesmo código e
+opções do arquivo `CMakeLists.txt` que vimos no tutorial passado.
 
 ![Escolhendo a construção](img/build_profile.png)
