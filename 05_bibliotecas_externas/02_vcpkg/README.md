@@ -52,7 +52,7 @@ O `vcpkg` possui um arquivo que passa ao `cmake` todas as informações necessá
 uso da biblioteca. Basta incluir essa opção no comando de linha do `cmake`, em que `VCPKG_DIR`
 é o diretório onde o `vcpkg` está instalado:
 
-    -DCMAKE_TOOLCHAIN_FILE=VCPKG_DIR\scripts\buildsystems\vcpkg.cmake
+    -DCMAKE_TOOLCHAIN_FILE=VCPKG_DIR/scripts/buildsystems/vcpkg.cmake
 
 Considere o código C++ abaixo (nome do arquivo `main.cpp`) em uma estrutura de projeto do
 `cmake`:
@@ -84,7 +84,7 @@ o `vcpkg` **está instalado** no seu sistema!)
 
     mkdir build
     cd build
-    cmake .. "-DCMAKE_TOOLCHAIN_FILE=VCPKG_DIR\scripts\buildsystems\vcpkg.cmake"
+    cmake .. "-DCMAKE_TOOLCHAIN_FILE=VCPKG_DIR/scripts/buildsystems/vcpkg.cmake"
     make
 
 Basta executar o executável e checar a versão usada do `SQLite`!
