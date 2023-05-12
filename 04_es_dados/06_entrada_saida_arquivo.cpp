@@ -98,7 +98,7 @@ int main(int argc, char** argv) {
 
     } else {
         // caso de erro, aviso o usuário
-        cout << "Erro ao abrir arquivo out!" << endl;
+        cerr << "Erro ao abrir arquivo out!" << endl;
     }
 
     // declaração de variáveis
@@ -126,7 +126,8 @@ int main(int argc, char** argv) {
 
     } else {
         // caso de erro, aviso o usuário
-        cout << "Erro ao abrir arquivo in!" << endl;
+        cerr << "Erro ao abrir arquivo in!" << endl;
     }
+
     return 0;
 }

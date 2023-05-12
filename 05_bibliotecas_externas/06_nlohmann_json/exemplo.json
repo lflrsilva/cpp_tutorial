@@ -1,0 +1,17 @@
+{
+  "pi": 3.141,
+  "feliz": true,
+  "nome": "LF",
+  "resposta": {
+    "tudo": 42
+  },
+  "lista": [
+    1,
+    0,
+    2
+  ],
+  "objeto": {
+    "moeda": "BRL",
+    "valor": 42.99
+  }
+}
