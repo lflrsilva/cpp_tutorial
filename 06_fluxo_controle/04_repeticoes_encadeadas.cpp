@@ -1,17 +1,18 @@
-/** 
+/**
 
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   repeticoes_encadeadas.cpp
+  File:   04_repeticoes_encadeadas.cpp
   Author: lflrsilva
 
-  Topicos abordados:
+Tópicos abordados
+-----------------
   - Uso de repeticoes encadeadas
   - Aplicacao de comandos encadeados
 
   Sintaxe basica:
- 
+
   for (i=0; i<=5; i++)
   {
       statement1;
@@ -28,7 +29,7 @@
   Cuidados:
   - Contadores nos lacos interno e externo
   - Uso de break e continue
- 
+
  */
 
 #include <iostream>
@@ -42,9 +43,9 @@ int main(int argc, char** argv) {
     // construindo uma piramide
     cout <<"Entre com o numero de niveis na piramide: ";
     cin  >> levels;
- 
+
     space = levels;
- 
+
     for (int i = 1 ; i <= levels ; i++ )
     {
         for (int k = 1 ; k < space ; k++ )
@@ -52,9 +53,9 @@ int main(int argc, char** argv) {
             // escrevendo espacos em tela ate coluna = nivel -1
             cout << " ";
         }
-        
+
         space--;
- 
+
         for (int k = 1 ; k <= 2*i - 1 ; k++ )
         {
             // construindo a piramide

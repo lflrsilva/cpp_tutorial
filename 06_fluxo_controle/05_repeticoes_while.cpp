@@ -1,19 +1,20 @@
-/** 
+/**
 
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   repeticoes_while.cpp
+  File:   05_repeticoes_while.cpp
   Author: lflrsilva
 
-  Topicos abordados:
+Tópicos abordados
+-----------------
   - Aplicacao do comando while
   - Aplicacao do comando do-while
-  - Interrupcao de laco com break 
+  - Interrupcao de laco com break
   - Continuacao do laco com continue
 
   Sintaxe basica do comando while:
- 
+
   while ( condition )
   {
       statement1;
@@ -30,9 +31,9 @@
 
   Cuidados:
   - Caso a condicao nao seja alterada dentro dos comandos do laco, obtem-se um laco infinito!
-  
+
   Sintaxe basica do comando do-while
-  do 
+  do
   {
       statement1;
       statement2;
@@ -60,7 +61,7 @@ using namespace std;
 int main(int argc, char** argv) {
 
     int i, j;
-    
+
     i = 0;                   // inicializacao de i = 0
     while (i <= 20)          // avalia condicao para entrar no laco
     {

@@ -3,16 +3,18 @@
   Este arquivo faz parte dos tutoriais de C++ github.com/lflrsilva/cpp_tutorial
   (c) Copyright 2023 Luiz Fernando Lopes Rodrigues Silva. All Rights Reserved.
 
-  File:   repeticoes_for.cpp
+  File:   03_repeticoes_for.cpp
   Author: lflrsilva
 
-  Topicos abordados:
+Topicos abordados
+-----------------
   - Uso de repeticoes (lacos)
   - Aplicacao do comando for
   - Interrupcao de laco com break
   - Continuacao do laco com continue
 
-  Laços e repetições
+Laços e repetições
+------------------
   Sintaxe basica, com base em instruções compostas (não linear):
 
   for (initialize; condition; expression)
@@ -32,7 +34,7 @@
      - Caso false, executa comando logo apos o laco
 
   Cuidados:
-  - Os 3 argumentos sao opcionais. Laco infinito!
+  - Os 3 argumentos são opcionais. Laço infinito!
 
  */
 

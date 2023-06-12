@@ -1,0 +1,4 @@
+- fazer ponteiros para estruturas
+- fazer ponteiros como argumentos de funções 
+- fazer ponteiros para funções (ver no cplusplus)
+- alocação dinâmica
