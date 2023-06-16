@@ -1,0 +1,9 @@
+# ninja log v5
+3	339	1686849502016185011	CMakeFiles/tutorial_04.dir/01_entrada_saida_basico.cpp.o	20ae974bbe400c67
+2	298	1686849558402643425	CMakeFiles/tutorial_04.dir/03_usando_namespaces.cpp.o	abb5ba6b227715ca
+1	316	1686849583708863152	CMakeFiles/tutorial_04.dir/04_saida_pt_flutuante.cpp.o	410da2c8eb9b5325
+388	432	1686849620953042955	tutorial_04	2b8e2be818a8b1a6
+2	382	1686849536983930271	CMakeFiles/tutorial_04.dir/02_saida_dados_formatada.cpp.o	baff810c331bcd52
+1	386	1686849620905312471	CMakeFiles/tutorial_04.dir/05_es_strings.cpp.o	31c3796144d74a7e
+1	398	1686849698208818754	CMakeFiles/tutorial_04.dir/06_entrada_saida_arquivo.cpp.o	3fda897ffbf9bf94
+399	443	1686849698256126512	tutorial_04	51b761983af9627f

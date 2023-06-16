@@ -124,8 +124,8 @@ int main(int argc, char** argv) {
 
     // Declaracao com inicializacao
     int v[] = {1, 2, 3, 4};      // inicializacao com atribuicao
-    int a[3]  {2, 4, 5};         // inicializacao universal
-    int u[][3] { {1, 2, 3} , {4, 5, 8} };
+    int a[3] = {2, 4, 5};         // inicializacao universal
+    int u[][3] = { {1, 2, 3} , {4, 5, 8} };
     char filename[30] = "output";   // array de caracteres
 
     /* Erro se declarado E inicializado assim:
@@ -171,7 +171,7 @@ int main(int argc, char** argv) {
             dados_2d[i][j] = (i+1)*(j+1);
 
             std::cout << dados_1d[i*WIDTH + j] << "\t"
-                      << dados_2d[i][j];
+                      << dados_2d[i][j] << "\t";
         }
         std::cout << "\n";
     }
@@ -186,7 +186,7 @@ int main(int argc, char** argv) {
     // Array STL
 
     // declaração de array STL
-    std::array<int, 3> meu_array {10, 20, 30};
+    std::array<int, 3> meu_array = {10, 20, 30};
 
     // acesso por índices dos elementos do array
     for (int i=0; i < meu_array.size(); ++i) {
