@@ -12,6 +12,9 @@ Este projeto apresenta o código fonte usado como tutoriais para o aprendizado d
 - Fluxos de controle
   - Repetições
   - Condicionais
+- Subrotinas e funções
+- Tipos derivados
+- Ponteiros e alocação dinâmica
 - (em construção)
 
 ## Referências
@@ -20,6 +23,8 @@ Este projeto apresenta o código fonte usado como tutoriais para o aprendizado d
   Engineers, Springer, 2001.
 - Martin, Robert C, Robert C. Martin Clean Code Collection (Collection),
   Prentice Hall Pearson, 2011.
+- Meyers, Scott, Effective Modern C++, O'Reilly, 2014.
+- Bulka, Cov, Mayhew, David, Efficient C++ Performance Programming Techiniques, Addison Wesley, 1999.
 - [Site cplusplus](https://cplusplus.com/)
 - [Site cpp reference](https://en.cppreference.com/)
 
