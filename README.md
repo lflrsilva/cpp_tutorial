@@ -15,6 +15,10 @@ Este projeto apresenta o código fonte usado como tutoriais para o aprendizado d
 - Subrotinas e funções
 - Tipos derivados
 - Ponteiros e alocação dinâmica
+- Introdução a orientação a objetos
+  - Conceitos básicos
+  - Construtores
+  - Sobrecarregamento de operadores
 - (em construção)
 
 ## Referências
