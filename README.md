@@ -19,6 +19,8 @@ Este projeto apresenta o código fonte usado como tutoriais para o aprendizado d
   - Conceitos básicos
   - Construtores
   - Sobrecarregamento de operadores
+  - Templates
+- Containers de dados
 - (em construção)
 
 ## Referências
