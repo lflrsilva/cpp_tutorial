@@ -7,7 +7,7 @@ project(tutorial_11)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # altere o nome do arquivo fonte principal e inclua fonte adicional
-add_executable(tutorial_11 01_intro_containers.cpp)
+add_executable(tutorial_11 02_iterators_containers.cpp)
 
 # indica os diretórios para buscar os cabeçalhos (*.h) chamados nos códigos
 include_directories(./include)
